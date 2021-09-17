@@ -37,15 +37,4 @@ public class SquadRepository {
 
     }
 
-    public boolean createBro(Bro bro) {
-
-        try {
-            dbReader.save(bro);
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
-
-    }
-
 }
