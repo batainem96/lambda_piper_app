@@ -1,4 +1,3 @@
 com/revature/battle_la/get_squad/SquadRepository.class
 com/revature/battle_la/get_squad/Bro.class
-com/revature/battle_la/get_squad/getSquadHandler.class
-com/revature/battle_la/get_squad/postSquadHandler.class
+com/revature/battle_la/get_squad/GetSquadHandler.class
