@@ -10,7 +10,7 @@ import com.google.gson.GsonBuilder;
 
 import java.util.List;
 
-public class getSquadHandler implements RequestHandler<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
+public class GetSquadHandler implements RequestHandler<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
 
     private static final Gson mapper = new GsonBuilder().setPrettyPrinting().create();
     private final SquadRepository squadRepo = new SquadRepository();
